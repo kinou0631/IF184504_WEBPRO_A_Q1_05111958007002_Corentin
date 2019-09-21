@@ -1,0 +1,124 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #f2f6e9;
+}
+
+/*------------------------------ Navigation bar -----------------------------*/
+.navbar {
+	background:#0277e4;
+}
+
+.nav-link,
+.navbar-brand {
+	color: #fff;
+	cursor: pointer;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+}
+
+.nav-link:hover {
+	color: #000;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+/*----------------------------------- Body ----------------------------------*/
+
+.header {
+	padding-top: 20%;
+	position: relative;
+	padding-bottom: 10%;
+}
+
+/* description */
+
+.description {
+	padding-top: 10%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -55%);
+	text-align: center;
+	padding-bottom: 10%;
+}
+
+.description h1 {
+	color: #64a2e9;
+}
+
+.description p {
+	color: rgb(0, 0, 0);
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+/* features */
+
+.features {
+	margin: 2em auto;
+	padding: 1em;
+	padding-top: 10%;
+	position: relative;
+}
+
+.feature-title {
+	color: rgb(0, 0, 0);
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.features p {
+	color: #000000;
+}
+
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+
+/*-------------------------------- Footer -----------------------------------*/
+
+.page-footer {
+	background-color: #222;
+	color: #ccc;
+	padding: 60px 0 30px;
+}
+
+.footer-copyright {
+	color: #666;
+	padding-top: 40px 0;
+}
+
+/*-------------------------------- Media ------------------------------------*/
+
+@media (max-width: 575.98px) {
+	.description {
+	  left: 0;
+	  padding: 0 15px;
+	  position: absolute;
+	  top: 10%;
+	  transform: none;
+	  text-align: center;
+	}
+	
+	.description h1 {
+	  font-size: 2em;
+	}
+	
+	.description p {
+	  font-size: 1.2rem;
+	}
+	
+	.features {
+	  margin: 0;
+	}
+}
